@@ -6,6 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
 - [Built with](#built-with)
+- [Lessons Learned](#lessons-learned)
 - [Author](#author)
 
 
@@ -21,6 +22,9 @@ Simple front end design for a QR Component.
 
 - Semantic HTML5 markup
 - CSS custom properties and CSS variables
+
+## Lessons Learned
+- My Semantic HTML needs some extra practice as I've picked up some bad habits.
 
 ## Author
 
