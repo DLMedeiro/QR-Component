@@ -24,7 +24,8 @@ Simple front end design for a QR Component.
 - CSS custom properties and CSS variables
 
 ## Lessons Learned
-- My Semantic HTML needs some extra practice as I've picked up some bad habits.
+- Need to freshen up on Semantic HTML5 markup
+- CSS transform property for centering components
 
 ## Author
 

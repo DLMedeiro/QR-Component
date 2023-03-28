@@ -20,7 +20,20 @@ body {
     overflow: hidden;
 }
 
+
 .container {
+    position: absolute;
+    width: 300px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--container-color);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+/* .container {
     margin-top: 20vh;
     background: var(--container-color);
     display: block;
@@ -30,8 +43,7 @@ body {
     border-radius: 15px;
     padding: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
-}
+} */
 
     
 img {
@@ -63,16 +75,14 @@ img {
 
 
 footer{
-    margin-top: 25px;
+    margin: 25px 0px 25px 0px;
     font-size: 11px;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
 footer a {
     color: hsl(228, 45%, 44%);
   }
-
-@media screen  and (max-width: 380px){
-    .container {
-        margin-top: 15vh;
-    }
-}
